@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html{
+  font-size: 18px;
+  color: black;
+}
+
+.dropdown-toggle{
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 14px;
+}
