@@ -27,6 +27,12 @@ html{
   line-break: auto;
 }
 
+.imgg{
+  width: 100% !important;
+  height: 142.5px !important;
+  object-fit: cover;
+}
+
 @media (min-width: 768px){
   .col-md-1 {
       flex: 0 0 auto;

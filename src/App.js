@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header';
 import Navs from './component/Navs';
-import Slider from './component/Slider';
+import Slider from './Slider/Slider';
+import Section from './component/Section';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Navs/>
       <Slider/>
+      <Section/>
     </div>
   );
 }
