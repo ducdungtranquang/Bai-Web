@@ -7,13 +7,16 @@ export default function Navs() {
             "backgroundColor":"#363636",
 
         }}>
-            <div class="row">
+            <div class="row" style={{
+                "marginRight":"0",
+                "marginLeft":"calc(-3 * var(--bs-gutter-x))"
+            }}>
                 <div class="col-md-1">
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Gioi thieu
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -21,10 +24,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Khoa-Trung tam
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -32,10 +35,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Dao tao
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -43,10 +46,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Nghien cuu
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -54,10 +57,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Tuyen sinh
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -65,10 +68,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Sinh vien
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -76,10 +79,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Hop tac doi ngoai
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -87,10 +90,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Cuu sinh vien
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -98,10 +101,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Tin tuc-Su kien
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -109,10 +112,10 @@ export default function Navs() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-md-1 text-white border-end">
                     <div class="dropdown">
 
-                        <button class="btn text-white border-end dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
                         Tuyen dung
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
